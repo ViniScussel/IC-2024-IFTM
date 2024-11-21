@@ -1,3 +1,6 @@
+<H1>Como funciona Apredizado por Reforço?</H1>
+<a>De forma simples, o ator (quem faz a ação) escolhe, a partir de uma política (cérebro), uma ação com base no estado do ambiente. Essa ação neste estádo resulta em uma recompensa, boa ou ruim, e atualiza a política. Abordaremos superficialmente os cálculos disso nos demais tópicos.</a>
+
 <H1>Objetivos:</H1>
 <a>O objetivo deste trabalho é realizar uma análise comparativa entre os métodos Deep SARSA e Deep Q-learning, avaliando seu desempenho em ambientes de aprendizado por reforço com características desafiadoras, como o BipedalWalker-v3. Para isso, serão analisados fatores como o tempo de convergência, estabilidade do aprendizado e a recompensa média obtida pelos agentes treinados. Essa comparação busca identificar as forças e limitações de cada abordagem, contribuindo para a escolha de métodos mais adequados a diferentes aplicações práticas.</a>
 <H1>Materiais e Métodos:</H1>
@@ -55,3 +58,13 @@ Os algoritmos foram avaliados com base nas seguintes métricas:
     Estabilidade: Avaliação da variância na recompensa ao longo do treinamento.
 
 Os experimentos foram conduzidos utilizando um computador, garantindo maior eficiência no treinamento das redes neurais. Os resultados obtidos foram registrados e analisados para identificar as diferenças de desempenho entre os dois métodos.</a>
+
+<H1>Discussão sonbre o assunto:</H1>
+<a>
+   Geralmente não ouvimos falar de Deep SARSA na comunidade de IA, isso porque o tipo de rede DQN, anterior ao DSARSA, foi mais difundido, no entanto suas áreas de atuação são parecidas. A unica diferença entre DSARSA e DQN são o tipo de política:
+
+    *On-Poliicy:
+      O método que o DSARSA usa. Na maioria das vezes é sensível à política inicial. Bom em ambientes de muita variância (estocásticos) e por isso a escolha deste método.
+      *Off-Policy:
+      O método que o DQN usa. Pouco sensível à política inicial, o que não leva a mínimos locais. Bom em ambientes determinísticos e por isso a comparação.
+</a>
