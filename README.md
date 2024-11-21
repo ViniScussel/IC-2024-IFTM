@@ -59,7 +59,7 @@ Os algoritmos foram avaliados com base nas seguintes métricas:
 
 Os experimentos foram conduzidos utilizando um computador, garantindo maior eficiência no treinamento das redes neurais. Os resultados obtidos foram registrados e analisados para identificar as diferenças de desempenho entre os dois métodos.</a>
 
-<H1>Discussão sonbre o assunto:</H1>
+<H1>Discussão sobre o assunto:</H1>
 <a>
    Geralmente não ouvimos falar de Deep SARSA na comunidade de IA, isso porque o tipo de rede DQN, anterior ao DSARSA, foi mais difundido, no entanto suas áreas de atuação são parecidas. A unica diferença entre DSARSA e DQN são o tipo de política:
 
