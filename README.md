@@ -54,4 +54,4 @@ Os algoritmos foram avaliados com base nas seguintes métricas:
     Taxa de convergência: Número de episódios necessários para atingir um desempenho estável.
     Estabilidade: Avaliação da variância na recompensa ao longo do treinamento.
 
-Os experimentos foram conduzidos utilizando um computador com uma GPU NVIDIA (se aplicável), garantindo maior eficiência no treinamento das redes neurais. Os resultados obtidos foram registrados e analisados para identificar as diferenças de desempenho entre os dois métodos.</a>
+Os experimentos foram conduzidos utilizando um computador, garantindo maior eficiência no treinamento das redes neurais. Os resultados obtidos foram registrados e analisados para identificar as diferenças de desempenho entre os dois métodos.</a>
