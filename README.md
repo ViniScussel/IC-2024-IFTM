@@ -2,7 +2,7 @@
 <a>De forma simples, o ator (quem faz a ação) escolhe, a partir de uma política (cérebro), uma ação com base no estado do ambiente. Essa ação neste estádo resulta em uma recompensa, boa ou ruim, e atualiza a política. Abordaremos superficialmente os cálculos disso nos demais tópicos.</a>
 
 <H1>Objetivos:</H1>
-<a>O objetivo deste trabalho é realizar uma análise comparativa entre os métodos Deep SARSA e Deep Q-learning, avaliando seu desempenho em ambientes de aprendizado por reforço com características desafiadoras, como o BipedalWalker-v3. Para isso, serão analisados fatores como o tempo de convergência, estabilidade do aprendizado e a recompensa média obtida pelos agentes treinados. Essa comparação busca identificar as forças e limitações de cada abordagem, contribuindo para a escolha de métodos mais adequados a diferentes aplicações práticas.</a>
+<a>O objetivo deste trabalho é realizar uma análise comparativa entre os métodos Deep SARSA e Deep Q-learning, avaliando seu desempenho em ambientes de aprendizado por reforço com características desafiadoras, como o BipedalWalker-v3 e CartPole-v1. Para isso, serão analisados fatores como o tempo de convergência, estabilidade do aprendizado e a recompensa média obtida pelos agentes treinados. Essa comparação busca identificar as forças e limitações de cada abordagem, contribuindo para a escolha de métodos mais adequados a diferentes aplicações práticas.</a>
 <H1>Materiais e Métodos:</H1>
 <a>Nesta seção, são descritos os recursos, ferramentas e procedimentos utilizados para realizar a comparação entre os métodos Deep SARSA e Deep Q-learning no ambiente de aprendizado por reforço BipedalWalker-v3.
 Ambiente de Simulação
@@ -67,4 +67,6 @@ Os experimentos foram conduzidos utilizando um computador, garantindo maior efic
       O método que o DSARSA usa. Na maioria das vezes é sensível à política inicial. Bom em ambientes de muita variância (estocásticos) e por isso a escolha deste método.
       *Off-Policy:
       O método que o DQN usa. Pouco sensível à política inicial, o que não leva a mínimos locais. Bom em ambientes determinísticos e por isso a comparação.
+   Ainda mais, existem parâmetros que, apesar da parecerem atrasar o processo de aprendizado, adiantam e muito. Nos dois métodos foram escritos linhas de código de ruido nos movimentos do agente. Esses ruidos ajudam na exploração do ambiente quando o que agente faria é 'exploitar'. Na prática, um exemplo muito simples é quando o agente se mantém parado, e, assim, não recebendo recompensa ou recebendo menos que um erro fatal. Esse tipo de decisão geralmente está relacionado com os mínimos locais, mas essa discução se direciona às derivadas parciais e matrizes, portanto não abordarei aqui.
 </a>
+<H1></H1>
