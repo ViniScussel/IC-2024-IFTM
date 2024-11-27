@@ -5,6 +5,7 @@
  <a>O objetivo deste trabalho é realizar uma análise do modelo de aproximação desenvolvido, avaliando seu desempenho em ambientes de aprendizado por reforço com características desafiadoras, como o BipedalWalker-v3 e CartPole-v1. Para isso, serão analisados fatores como o tempo de convergência, estabilidade do aprendizado e a recompensa média obtida pelos agentes treinados. Essa comparação busca identificar as forças e limitações de cada abordagem, contribuindo para a escolha de métodos mais adequados a diferentes aplicações práticas.</a>
  <H1>Materiais e Métodos:</H1>
  <a>Nesta seção, são descritos os recursos, ferramentas e procedimentos utilizados para realizar avaliação do código desenvolvido no ambiente de aprendizado por reforço BipedalWalker-v3.
+  
  Ambiente de Simulação
 
  O ambiente utilizado foram aqueles fornecidos pela biblioteca Gymnasium. Este ambiente simula um robô bípede que deve aprender a caminhar de forma eficiente, exigindo a coordenação de múltiplos motores. Cada estado do ambiente é representado por um vetor de 24 dimensões, que inclui informações como posição, velocidade e ângulos das juntas. As ações do agente consistem em valores contínuos que controlam a força aplicada em quatro motores, tornando o problema desafiador devido à sua natureza de controle contínuo e alta dimensionalidade.
