@@ -48,10 +48,8 @@ A fórmula para atualizar os parâmetros $`\theta`$ pode ser reescrita da seguin
 
 $`\theta = \theta _{antigo} + \frac{lr}{(\Delta_{\text{max}} \times \sqrt{\frac{1}{N} \sum_{i=1}^{N} (r_i - \mu)^2})} \times [S_{antigo} + \delta R \times \Delta]`$
 
-$``$
-
-
 O que exatamente isso significa? Simples:
+
 $`\theta`$ é a matriz de pesos
 
 $`\theta _{antigo}`$ é a matriz teta que não foi modificada pela equação a seguir, a antiga matriz $`\theta`$
