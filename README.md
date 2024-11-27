@@ -36,7 +36,7 @@
   Foi testado o algorítmo durante 1500 episódios consecutivos. Durante esses episódios foram resgatados dados de recompensa total e o próprio número do episódio em relação à recompensa acumulada. Com esses dados foi possível encenar um gráfico com a biblioteca matplotlib da seguinte forma:
  </a>
  <img src="/images/recompensa_acumulada.png">
- <a>Todo esse processo resultou em um desvio padrão de aproximadamente 3.39, no entanto, após o episódio 263, o desvio padão cai para aproximadamente 1 e após o 500 o desvio padrão fica abaixo de 0.61, expressando um resultado ótimo</a>
+ <a>Todo esse processo resultou em um desvio padrão de aproximadamente 3.39, no entanto, após o episódio 263, o desvio padrão cai para aproximadamente 1 e após o 500 o desvio padrão fica abaixo de 0.61, expressando um resultado ótimo</a>
  <h2>Quanto a implementação</h2>
  <a>
  </a>
