@@ -4,7 +4,8 @@
  <H1>Objetivos:</H1>
  <a>O objetivo deste trabalho é realizar uma análise do modelo de aproximação desenvolvido, avaliando seu desempenho em ambientes de aprendizado por reforço com características desafiadoras, como o BipedalWalker-v3 e CartPole-v1. Para isso, serão analisados fatores como o tempo de convergência, estabilidade do aprendizado e a recompensa média obtida pelos agentes treinados. Essa comparação busca identificar as forças e limitações de cada abordagem, contribuindo para a escolha de métodos mais adequados a diferentes aplicações práticas.</a>
  <H1>Materiais e Métodos:</H1>
- <a>Nesta seção, são descritos os recursos, ferramentas e procedimentos utilizados para realizar avaliação do código desenvolvido no ambiente de aprendizado por reforço BipedalWalker-v3.
+ <a>
+  Nesta seção, são descritos os recursos, ferramentas e procedimentos utilizados para realizar avaliação do código desenvolvido no ambiente de aprendizado por reforço BipedalWalker-v3.
   
  Ambiente de Simulação
 
