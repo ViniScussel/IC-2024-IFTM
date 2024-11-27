@@ -46,11 +46,7 @@
  
 A fórmula para atualizar os parâmetros $`\theta`$ pode ser reescrita da seguinte forma:
 
-$`\theta = \theta _{antigo} + \frac{lr}{(\Delta_{\text{max}} \times \sigma_r)} \times \Delta`$
-
-onde:
-
-$`\sigma_r = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (r_i - \mu)^2}`$
+$`\theta = \theta _{antigo} + \frac{lr}{(\Delta_{\text{max}} \times \sqrt{\frac{1}{N} \sum_{i=1}^{N} (r_i - \mu)^2})} \times [S_{antigo} + \delta R \times \Delta]`$
 
 $``$
  
