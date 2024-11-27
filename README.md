@@ -43,7 +43,9 @@
   Em primeiro lugar, precisamos entender como ele funciona na prática:
   Inicia-se 3 matrizes 4x24 com valores 0: Step, Delta e Theta. Delta é uma matriz com valores aleatórios que impactam na direção dos valores de Theta durante a execução (aumento ou diminuição do valor escalar). O episódio, após finalizado, retorna as recompensas acumuladas de cada direção (R_neg e R_pos). Mas, então, como sabemos se Theta deve descer ou subir? Simples, fazemos:
  </a>
+ 
  $`\theta = \theta + \frac{lr}{(\delta)_{max} \times \sqrt{(\sum{r)\over n}}`$
+ 
  <h2>Quanto ao uso de processamento e memória</h2>
  <a>
  </a>
