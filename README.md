@@ -53,14 +53,23 @@ $``$
 
 O que exatamente isso significa? Simples:
 $`\theta`$ é a matriz de pesos
+
 $`\theta _{antigo}`$ é a matriz teta que não foi modificada pela equação a seguir, a antiga matriz $`\theta`$
+
 $`lr`$ é a taxa de aprendizado
+
 $`Delta`$ é a matriz de variações nos pesos $`theta`$
+
 $`\sum_{i=1}^{N} (r_i - \mu)^2`$ é o desvio padrão das recompensas
+
 $`S_{antigo}`$ é a antiga matriz Step que continham os valores de Step modificados com a diferença entre as recompensas de S`\Delta`S positivo e negativo. Em suma, é ele quem decide se S`\theta`S deve subir ou abaixar
+
 S`\delta R`S é a diferença entre as recompensas citadas acima
+
 S`\Delta`S é a propria matriz Delta que contém os valores adicionados ou retirados de theta
+
 S`\Delta _{max}`S é a quantidade de Deltas que serão selecionados pela recompensa, os "melhores Deltas"
+
 
  
  <h2>Quanto ao uso de processamento e memória</h2>
