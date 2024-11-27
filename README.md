@@ -58,7 +58,7 @@ $`\theta _{antigo}`$ é a matriz teta que não foi modificada pela equação a s
 
 $`lr`$ é a taxa de aprendizado
 
-$`Delta`$ é a matriz de variações nos pesos $`theta`$
+$`\Delta`$ é a matriz de variações nos pesos $`theta`$
 
 $`\sum_{i=1}^{N} (r_i - \mu)^2`$ é o desvio padrão das recompensas
 
