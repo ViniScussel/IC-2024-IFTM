@@ -1,5 +1,5 @@
  <H1>Como funciona Apredizado por Reforço?</H1>
- <a>De forma simples, o ator (quem faz a ação) escolhe, a partir de uma política (cérebro), uma ação com base no estado do ambiente. Essa ação neste estádo resulta em uma recompensa, boa ou ruim, e atualiza a política. Abordaremos superficialmente os cálculos disso nos demais tópicos.</a>
+ <a>De forma simples, o ator (quem faz a ação) escolhe, a partir de uma política (cérebro), uma ação com base no estado do ambiente. Essa ação neste estado resulta em uma recompensa, boa ou ruim, e atualiza a política. Abordaremos superficialmente os cálculos disso nos demais tópicos.</a>
 
  <H1>Objetivos:</H1>
  <a>O objetivo deste trabalho é realizar uma análise do modelo de aproximação desenvolvido, avaliando seu desempenho em ambientes de aprendizado por reforço com características desafiadoras, como o BipedalWalker-v3 e CartPole-v1. Para isso, serão analisados fatores como o tempo de convergência, estabilidade do aprendizado e a recompensa média obtida pelos agentes treinados. Essa comparação busca identificar as forças e limitações de cada abordagem, contribuindo para a escolha de métodos mais adequados a diferentes aplicações práticas.</a>
