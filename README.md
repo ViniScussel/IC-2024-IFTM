@@ -41,10 +41,8 @@
  <a>
   Nesta parte abordaremos a matemática relacionada ao algorítmo de aprendizado discutido.
   Em primeiro lugar, precisamos entender como ele funciona na prática:
-  Inicia-se 3 matrizes 4x24 com valores 0: Step, Delta e Theta. Delta é uma matriz com valores aleatórios que impactam na direção dos valores de Theta durante a execução (aumento ou diminuição do valor escalar). O episódio, após finalizado, retorna as recompensas acumuladas de cada direção (R_neg e R_pos). Mas, então, como sabemos se Theta deve descer ou subir? Simples, fazemos:
+  Inicia-se 3 matrizes 4x24 com valores 0: Step, Delta e Theta. Delta é uma matriz com valores aleatórios que impactam na direção dos valores de Theta durante a execução (aumento ou diminuição do valor escalar). O episódio, após finalizado, retorna as recompensas acumuladas de cada direção (R_neg e R_pos). Mas, então, como sabemos se Theta deve descer ou subir? Simples, fazemos a fórmula para atualizar os parâmetros $`\theta`$ pode ser reescrita da seguinte forma:
  </a>
- 
-A fórmula para atualizar os parâmetros $`\theta`$ pode ser reescrita da seguinte forma:
 
 $`\theta = \theta _{antigo} + \frac{lr}{(\Delta_{\text{max}} \times \sqrt{\frac{1}{N} \sum_{i=1}^{N} (r_i - \mu)^2})} \times [S_{antigo} + \delta R \times \Delta]`$
 
