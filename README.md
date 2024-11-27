@@ -64,11 +64,11 @@ $`\sum_{i=1}^{N} (r_i - \mu)^2`$ é o desvio padrão das recompensas
 
 $`S_{antigo}`$ é a antiga matriz Step que continham os valores de Step modificados com a diferença entre as recompensas de S`\Delta`S positivo e negativo. Em suma, é ele quem decide se S`\theta`S deve subir ou abaixar
 
-S`\delta R`S é a diferença entre as recompensas citadas acima
+$`\delta R`$ é a diferença entre as recompensas citadas acima
 
-S`\Delta`S é a propria matriz Delta que contém os valores adicionados ou retirados de theta
+$`\Delta`$ é a propria matriz Delta que contém os valores adicionados ou retirados de theta
 
-S`\Delta _{max}`S é a quantidade de Deltas que serão selecionados pela recompensa, os "melhores Deltas"
+$`\Delta _{max}`$ é a quantidade de Deltas que serão selecionados pela recompensa, os "melhores Deltas"
 
 
  
