@@ -44,7 +44,26 @@
   Inicia-se 3 matrizes 4x24 com valores 0: Step, Delta e Theta. Delta é uma matriz com valores aleatórios que impactam na direção dos valores de Theta durante a execução (aumento ou diminuição do valor escalar). O episódio, após finalizado, retorna as recompensas acumuladas de cada direção (R_neg e R_pos). Mas, então, como sabemos se Theta deve descer ou subir? Simples, fazemos:
  </a>
  
- $`\theta = \theta + \frac{lr}{(\Delta _{max} \times \sqrt{\sum{r}\over N)} \times [S_{antigo} + \delta R \times \Delta]`$
+ $`
+ A fórmula para atualizar os parâmetros \( \theta \) pode ser reescrita da seguinte forma:
+
+\[
+\theta = \theta + \frac{lr}{(\Delta_{\text{max}} \times \sigma_r)} \times \Delta
+\]
+
+onde:
+
+\[
+\sigma_r = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (r_i - \mu)^2}
+\]
+
+- \( \sigma_r \) é o **desvio padrão das recompensas** (com \( r_i \) representando as recompensas e \( \mu \) a média das recompensas).
+- \( \Delta \) é o vetor de **deltas** ou mudanças nos pesos, que pode estar relacionado ao gradiente ou à variação dos parâmetros da política.
+- \( \Delta_{\text{max}} \) é um fator de **escala** que limita as atualizações dos pesos.
+- \( lr \) é a **taxa de aprendizado**.
+
+A fórmula de atualização do parâmetro \( \theta \) ajusta os pesos com base nas recompensas e nas variações associadas aos parâmetros do modelo.
+ `$
  
  <h2>Quanto ao uso de processamento e memória</h2>
  <a>
