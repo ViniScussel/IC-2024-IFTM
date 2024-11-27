@@ -45,30 +45,7 @@
   Em primeiro lugar, precisamos entender como ele funciona na prática:
   Inicia-se 3 matrizes 4x24 com valores 0: Step, Delta e Theta. Delta é uma matriz com valores aleatórios que impactam na direção dos valores de Theta durante a execução (aumento ou diminuição do valor escalar). O episódio, após finalizado, retorna as recompensas acumuladas de cada direção (R_neg e R_pos). Mas, então, como sabemos se Theta deve descer ou subir? Simples, fazemos a fórmula para atualizar os parâmetros theta que pode ser escrita da seguinte forma:
  </a>
-
-$`\theta = \theta _{antigo} + \frac{lr}{(\Delta_{\text{max}} \times \sqrt{\frac{1}{N} \sum_{i=1}^{N} (r_i - \mu)^2})} \times [S_{antigo} + \delta R \times \Delta]`$
-
-O que exatamente isso significa? Simples:
-
-$`\theta`$ é a matriz de pesos
-
-$`\theta _{antigo}`$ é a matriz teta que não foi modificada pela equação a seguir, a antiga matriz $`\theta`$
-
-$`lr`$ é a taxa de aprendizado
-
-$`\Delta`$ é a matriz de variações nos pesos $`theta`$
-
-$`\sum_{i=1}^{N} (r_i - \mu)^2`$ é o desvio padrão das recompensas
-
-$`S_{antigo}`$ é a antiga matriz Step que continham os valores de Step modificados com a diferença entre as recompensas de $`\Delta`$ positivo e negativo. Em suma, é ele quem decide se $`\theta`$ deve subir ou abaixar
-
-$`\delta R`$ é a diferença entre as recompensas citadas acima
-
-$`\Delta`$ é a propria matriz Delta que contém os valores adicionados ou retirados de theta
-
-$`\Delta _{max}`$ é a quantidade de Deltas que serão selecionados pela recompensa, os "melhores Deltas"
-
-<h3>Caso o seu dispositivo não rode o LATEX, aqui está uma imagem com os significados do que está entre sifrões</h3>
+ 
 <img src="/images/latex.jpeg">
 
 <a>Portanto, o algorítmo não passa de uma operação linear que, por reforço, "acha" os mínimos da função sem necessidade de programar _Bacpropagation_ e nem _Postpropagation_, que aumentaria em dificuldade e uso de processamento, mas, em contrapartida, é menos eficiente que uma rede neural completa. Pela proximidade com redes neurais e métodos como CMA, DSARSA e DQN eu vou chamá-la, por economia de palavras, de Neural Aproximation, ou apenas NA.</a>
