@@ -39,6 +39,10 @@
  <a>Todo esse processo resultou em um desvio padrão de aproximadamente 3.39, no entanto, após o episódio 263, o desvio padrão cai para aproximadamente 1 e após o 500 o desvio padrão fica abaixo de 0.61, expressando um resultado ótimo</a>
  <h2>Quanto a implementação</h2>
  <a>
+  Nesta parte abordaremos a matemática relacionada ao algorítmo de aprendizado discutido.
+  Em primeiro lugar, precisamos entender como ele funciona na prática:
+  Inicia-se 3 matrizes 4x24 com valores 0: Step, Delta e Theta. Delta é uma matriz com valores aleatórios que impactam na direção dos valores de Theta durante a execução (aumento ou diminuição do valor escalar). O episódio, após finalizado, retorna as recompensas acumuladas de cada direção (R_neg e R_pos). Mas, então, como sabemos se Theta deve descer ou subir? Simples, fazemos $R_neg - R_pos
+ 
  </a>
  <h2>Quanto ao uso de processamento e memória</h2>
  <a>
