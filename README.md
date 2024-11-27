@@ -68,7 +68,7 @@ $`\Delta`$ é a propria matriz Delta que contém os valores adicionados ou retir
 
 $`\Delta _{max}`$ é a quantidade de Deltas que serão selecionados pela recompensa, os "melhores Deltas"
 
-<a>Portanto, o algorítmo não passa de uma operação linear que, por reforço, "acha" os mínimos da função sem necessidade de programar _Bacpropagation_ e nem _Postpropagation_, que aumentaria em dificuldade uso de processamento, mas, em contrapartida, é menos eficiente que uma rede neural completa. Pela proximidade com redes neurais e métodos como CMA, DSARSA e DQN eu vou chamá-la, por economia de palavras, de Neural Aproximation, ou apenas NA.</a>
+<a>Portanto, o algorítmo não passa de uma operação linear que, por reforço, "acha" os mínimos da função sem necessidade de programar _Bacpropagation_ e nem _Postpropagation_, que aumentaria em dificuldade e uso de processamento, mas, em contrapartida, é menos eficiente que uma rede neural completa. Pela proximidade com redes neurais e métodos como CMA, DSARSA e DQN eu vou chamá-la, por economia de palavras, de Neural Aproximation, ou apenas NA.</a>
  
  <h2>Quanto ao uso de processamento e memória</h2>
  <a>
