@@ -60,7 +60,7 @@ $`\Delta`$ é a matriz de variações nos pesos $`theta`$
 
 $`\sum_{i=1}^{N} (r_i - \mu)^2`$ é o desvio padrão das recompensas
 
-$`S_{antigo}`$ é a antiga matriz Step que continham os valores de Step modificados com a diferença entre as recompensas de S`\Delta`S positivo e negativo. Em suma, é ele quem decide se S`\theta`S deve subir ou abaixar
+$`S_{antigo}`$ é a antiga matriz Step que continham os valores de Step modificados com a diferença entre as recompensas de $`\Delta`$ positivo e negativo. Em suma, é ele quem decide se $`\theta`$ deve subir ou abaixar
 
 $`\delta R`$ é a diferença entre as recompensas citadas acima
 
