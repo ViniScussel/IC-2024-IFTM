@@ -50,10 +50,10 @@
 
 <a>Portanto, o algorítmo não passa de uma operação linear que, por reforço, "acha" os mínimos da função sem necessidade de programar _Bacpropagation_ e nem _Postpropagation_, que aumentaria em dificuldade e uso de processamento, mas, em contrapartida, é menos eficiente que uma rede neural completa. Pela proximidade com redes neurais e métodos como CMA, DSARSA e DQN eu vou chamá-la, por economia de palavras, de Neural Aproximation, ou apenas NA.</a>
  
- <h2>Quanto ao uso de processamento e memória</h2>
+ <h2>Quanto ao uso de processamento</h2>
  <a>
 
-2. Visualização
+Visualização
 
     Histograma: Mostra a distribuição do uso de CPU.
     Gráfico de linha: Mostra a evolução do uso de CPU ao longo do tempo.
@@ -69,11 +69,6 @@ Métricas Estatísticas:
     Desvio Padrão: 4.43%
     Mínimo: 12.6%
     Máximo: 41.6%
-
-Gráficos:
-
-    Evolução do Uso de CPU: Mostra como o uso de CPU varia ao longo do tempo, com uma linha indicando a média (14.40%).
-    Histograma: Exibe a distribuição dos valores de uso de CPU, com maior concentração na faixa de 12.5% a 15%.
   
  </a>
  <h1>Próximos Passos e o Futuro do Laboratório de Ideação (LABI)</h1>
