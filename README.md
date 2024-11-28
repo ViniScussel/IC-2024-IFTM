@@ -1,4 +1,4 @@
- <H1>Como funciona Apredizado por Reforço?</H1>
+ <H1>Como funciona Aprendizado por Reforço?</H1>
  <a>De forma simples, o ator (quem faz a ação) escolhe, a partir de uma política (cérebro), uma ação com base no estado do ambiente. Essa ação neste estado resulta em uma recompensa, boa ou ruim, e atualiza a política. Abordaremos superficialmente os cálculos disso nos demais tópicos.</a>
 
  <H1>Objetivos:</H1>
@@ -52,7 +52,31 @@
  
  <h2>Quanto ao uso de processamento e memória</h2>
  <a>
+
+2. Visualização
+
+    Histograma: Mostra a distribuição do uso de CPU.
+    Gráfico de linha: Mostra a evolução do uso de CPU ao longo do tempo.
+
+Aqui estão os resultados e gráficos baseados nos dados fornecidos:
+
+<img src="/images/cpu.png">
+
+Métricas Estatísticas:
+
+    Média: 14.40%
+    Mediana: 13.1%
+    Desvio Padrão: 4.43%
+    Mínimo: 12.6%
+    Máximo: 41.6%
+
+Gráficos:
+
+    Evolução do Uso de CPU: Mostra como o uso de CPU varia ao longo do tempo, com uma linha indicando a média (14.40%).
+    Histograma: Exibe a distribuição dos valores de uso de CPU, com maior concentração na faixa de 12.5% a 15%.
+  
  </a>
  <h1>Próximos Passos e o Futuro do Laboratório de Ideação (LABI)</h1>
  <a>
+  A partir do final dessa iniciação científica, durante os próximos anos, o laboratório tem, portanto, conhecimentos científicos suficientes nessa área e poderá desenvolver pesquisas e trabalhos em cima disso. Além disso, o uso dos meus códigos e do que eu escrevi aqui e em outros repositórios podem ser usados livrementes para avanços na área desde que haja citações, afinal, eu fiz isso como um presente ao LABI e seus integrantes. Qualquer dúvida, peça meu número ao Gustavo e eu estarei feliz em explicar o que for que seja.
  </a>
